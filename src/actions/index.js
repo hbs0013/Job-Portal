@@ -2,7 +2,7 @@ export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
 export const  LOGIN_ERROR = 'LOGIN_ERROR';
 export const SIGNUP_SUCCESS = 'SIGNUP_SUCCESS';
 export const SIGNUP_ERROR = 'SIGNUP_ERROR';
-const AUTHENTICATED_USERS = [{email: 'user1@gmail.com', password: 'har_sh@99'}];
+const AUTHENTICATED_USERS = [{email: 'testuser1@gmail.com', password: 'test_user1'}];
 
 export function authenticateUser(userData) {
     return function (dispatch) {

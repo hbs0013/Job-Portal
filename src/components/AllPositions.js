@@ -11,7 +11,9 @@ class AllPositions extends Component {
         super(props);
         this.state = {
             userId: '',
-            jobs: [{jobId: "R1007439", position_name: "Software Developer", description: "Very imp project", requiredSkills: "Java", userDetails:{firstname: "Harshal", lastname: "Shah"},company: "TSYS", datePosted: "Feb 15 2021", location: "Atlanta, Georgia"}],
+            jobs: [{jobId: "R100319", position_name: "Software Developer", description: "The Developer will be responsible for front-end as well as back-end development. The preferred skillsets are ReactJs, TypeScript, JavaScript, HTML5, CSS3, Java, Spring Boot, and AWS.", requiredSkills: "ReactJs, TypeScript, JavaScript, HTML5, CSS3, Java, Spring Boot", userDetails:{firstname: "Harshal", lastname: "Shah"},company: "TSYS", datePosted: "Feb 15 2021", location: "Atlanta, Georgia"},
+                    {jobId: "G100401", position_name: "Angular Developer", description: "The Developer will be responsible for front-end development. The preferred skillsets are Angular9, TypeScript, JavaScript, HTML5, CSS3, Java, Spring Boot, and AWS.", requiredSkills: "Angular9, TypeScript, JavaScript, HTML5, CSS3", userDetails:{firstname: "Harshal", lastname: "Shah"},company: "Google", datePosted: "Feb 14 2021", location: "Palo Alto, California"},
+                    {jobId: "R100786", position_name: "Backend Developer", description: "The Developer will be responsible for back-end development. The preferred skillsets are Java, Spring Boot, Spring JPA, Oracle and AWS.", requiredSkills: "Java, Spring Boot, Spring JPA, Oracle, AWS", userDetails:{firstname: "Harshal", lastname: "Shah"},company: "TSYS", datePosted: "Feb 13 2021", location: "Atlanta, Georgia"}],
             allJobs:''
 
         };
